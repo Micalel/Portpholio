@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "name": "Booki",
+    "description": "Booki est un site de location de biens immobiliers. C'est une page statique qui permet de visualiser les biens disponibles.",
+    "images": [
+      "/assets/images/Booki_oc.png",
+      "/assets/images/Booki1_oc.png"
+    ],
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "link": "https://github.com/Micalel/OC2-Creez-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-CSS.git",
+    "brief": "Création d'une interface utilisateur moderne et réactive pour un site de location immobilière.",
+    "difficulties": "Gestion des grilles CSS et adaptation responsive.",
+    "lessonsLearned": "Amélioration des compétences en design UI et en responsive design."
+  },
+  {
+    "id": 2,
+    "name": "Portpholio Nina Carducci",
+    "description": "Ce projet est un portpholio pour une cliente nommée Nina Carducci.",
+    "images": [
+      "/assets/images/Nina_oc.png",
+      "/assets/images/Nina1_oc.png"
+    ],
+    "skills": ["React", "TypeScript", "SASS"],
+    "link": "https://github.com/Micalel/Nina-Carducci-Dev-master",
+    "brief": "Développement d'un portfolio professionnel et esthétique pour une développeuse.",
+    "difficulties": "Intégration de TypeScript avec React et gestion des animations.",
+    "lessonsLearned": "Utilisation avancée de SASS et bonnes pratiques pour le SEO."
+  },
+  {
+    "id": 3,
+    "name": "TBD",
+    "description": "En cours de définition.",
+    "images": [
+      "/assets/images/booki1.png",
+      "/assets/images/booki2.png",
+      "/assets/images/booki3.png"
+    ],
+    "skills": ["TBD", "TBD", "TBD"],
+    "link": "TBD",
+    "brief": "Description du projet en attente.",
+    "difficulties": "TBD",
+    "lessonsLearned": "TBD"
+  },
+  {
+    "id": 4,
+    "name": "TBD",
+    "description": "En cours de définition.",
+    "images": [
+      "TBD",
+      "TBD",
+      "TBD"
+    ],
+    "skills": ["TBD", "TBD", "TBD", "TBD"],
+    "link": "TBD",
+    "brief": "Description du projet en attente.",
+    "difficulties": "TBD",
+    "lessonsLearned": "TBD"
+  }
+]

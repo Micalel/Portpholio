@@ -1,0 +1,93 @@
+@import '../../../styles/utils/variables';
+
+.projectDetails {
+  padding: $spacing * 4;
+  margin: 0 auto;
+  max-width: 1200px;
+  color: $text-color-light;
+
+  padding-top: clamp(9rem, 12vw, 12rem);
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: clamp(2rem, 3vw, 3rem);
+
+    .carouselSection {
+      flex: 1 1 55%; 
+      max-width: 650px;
+
+      .carouselImage {
+        border-radius: $border-radius;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        height: auto;
+      }
+
+      
+      .tagsContainer {
+        margin-top: clamp(1rem, 2vw, 2rem);
+        display: flex;
+        flex-wrap: wrap;
+        gap: clamp(0.5rem, 1vw, 1rem);
+        justify-content: center;
+
+        .tag {
+          border: 1px solid $secondary-color;
+          color: #ffa500;
+          padding: 0.4rem 0.8rem;
+          border: 2px solid #ffa500;
+          border-radius: $border-radius * 2;
+          font-size: clamp(0.8rem, 1vw, 1rem);
+          text-transform: uppercase;
+
+          transition: all 0.3s ease;
+        }
+      }
+    }
+
+    .detailsSection {
+      flex: 1 1 40%;
+      max-width: 600px;
+      text-align: left;
+
+      .projectName {
+        font-size: clamp(1.8rem, 2vw, 2.5rem);
+        margin-bottom: $spacing * 2;
+        color: #ffffff;
+      }
+
+      .githubLink {
+        font-size: clamp(1rem, 1.5vw, 1.2rem);
+        color: $link-color;
+        text-decoration: none;
+        font-weight: bold;
+        margin-bottom: $spacing * 2;
+      }
+
+      h2 {
+        font-size: clamp(1.5rem, 2vw, 2rem);
+        margin-bottom: $spacing;
+        color: #ffffff;
+        position: relative;
+
+        
+        &::after {
+          content: '';
+          display: block;
+          width: 60%;
+          height: 3px;
+          background-color: $secondary-color;
+          margin-top: 0.5rem;
+        }
+      }
+
+      p {
+        font-size: clamp(1rem, 1.2vw, 1.2rem);
+        margin-bottom: $spacing * 2;
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+}

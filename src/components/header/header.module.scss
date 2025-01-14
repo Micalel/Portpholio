@@ -1,0 +1,59 @@
+@import '../../styles/utils/variables';
+
+.header {
+
+  position: fixed;
+  top: 0;
+  left: 0;  
+  width: 100%;
+  background-color: $primary-color;
+  color: $text-color-light;
+  padding: $spacing * 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 
+  inset 0 0 20px rgba(255, 255, 255, 0.1),
+  0 4px 20px rgba(0, 0, 0, 0.7);
+  animation: fadeIn 2s linear forwards;         
+  z-index: 1;
+
+  h1 {
+    font-size: clamp(1rem, 2vw, 1.5rem); 
+    margin: 0;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: $spacing * 6;
+    margin: 0;
+    padding: 0;
+
+    li a {
+      color: $text-color-light;
+      text-decoration: none;
+      text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+      font-size: clamp(0.8rem, 1.5vw, 1rem); 
+
+      &:hover {
+        color: $link-hover-color;
+      }
+    }
+  }
+}
+
+//================================================================
+// Animations
+//================================================================
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+}

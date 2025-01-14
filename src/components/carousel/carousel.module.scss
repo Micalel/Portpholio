@@ -1,0 +1,44 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  
+    .carouselContainer {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 100%;
+    }
+  
+    .slide {
+      flex: 0 0 100%;
+      text-align: center;
+    }
+  
+    .arrowLeft,
+    .arrowRight {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      font-size: 2rem;
+      color: #ffffff;
+      cursor: pointer;
+      z-index: 2;
+  
+      &:hover {
+        transform: translateY(-50%) scale(1.2);
+      }
+    }
+  
+    .arrowLeft {
+      left: 10px;
+    }
+  
+    .arrowRight {
+      right: 10px;
+    }
+  }
+  

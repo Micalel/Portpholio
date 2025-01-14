@@ -1,0 +1,78 @@
+@import '../../../styles/utils/variables';
+
+.contact {
+    padding: $spacing * 4;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    background-color: $primary-color;
+    color: $text-color-light;
+  
+    h2 {
+      font-size: 2rem;
+      margin-bottom: $spacing * 3;
+    }
+  
+    .successMessage {
+      color: #4caf50; 
+      margin-bottom: $spacing * 2;
+    }
+  
+    .contactForm {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: $spacing * 2;
+  
+      .inputGroup {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: $spacing;
+  
+        label {
+          font-size: 1rem;
+          font-weight: bold;
+        }
+  
+        input,
+        textarea {
+          width: 100%;
+          padding: $spacing * 1.5;
+          border: 1px solid $secondary-color;
+          border-radius: $border-radius;
+          font-size: 1rem;
+          background-color: $background-light;
+          color: $text-color-dark;
+          outline: none;
+  
+          &:focus {
+            border-color: $link-color;
+          }
+        }
+  
+        textarea {
+          resize: none;
+          height: 100px;
+        }
+      }
+  
+      .submitButton {
+        padding: $spacing * 2;
+        background-color: $secondary-color;
+        color: $text-color-light;
+        border: none;
+        border-radius: $border-radius;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: $link-hover-color;
+        }
+      }
+    }
+  }
+  

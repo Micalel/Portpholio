@@ -1,0 +1,81 @@
+@import '../utils/variables';
+
+//================================================================
+// Typography
+//================================================================
+
+body {
+    font-family: $font-family;
+    font-size: $font-size-base;
+    line-height: $line-height;
+    color: $text-color-light;
+    background-color: $background-dark;
+  }
+
+
+
+//================================================================
+// Headings
+//================================================================
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 600;
+    color: $text-color-light;
+  }
+  
+  h1 {
+    font-size: $font-size-base * 2; // Double de la taille de base
+    line-height: 1.1;
+  }
+  
+  h2 {
+    font-size: $font-size-base * 1.5;
+  }
+  
+  h3 {
+    font-size: $font-size-base * 1.25;
+  }
+
+
+//================================================================
+// Links
+//================================================================
+
+a {
+    font-weight: 500;
+    color: $link-color;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+
+
+//================================================================
+// Buttons
+//================================================================
+
+button {
+    font-family: inherit;
+    font-size: $font-size-base;
+    font-weight: 500;
+    padding: $spacing * 0.75 $spacing * 1.5;
+    border-radius: $border-radius;
+    background-color: $background-dark;
+    color: $text-color-light;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.25s ease, background-color 0.3s ease;
+  
+    &:hover {
+      border-color: $link-color;
+    }
+  
+    &:focus,
+    &:focus-visible {
+      outline: 4px auto -webkit-focus-ring-color;
+    }
+  }
