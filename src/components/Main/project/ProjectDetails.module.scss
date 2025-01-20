@@ -12,7 +12,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: clamp(2rem, 3vw, 3rem);
+    gap: clamp(2rem, 3vw, 2rem);
+    padding-bottom: 50px;
 
     .carouselSection {
       flex: 1 1 55%; 
@@ -63,11 +64,11 @@
         color: $link-color;
         text-decoration: none;
         font-weight: bold;
-        margin-bottom: $spacing * 2;
+        margin: $spacing, 0;
       }
 
       h2 {
-        font-size: clamp(1.5rem, 2vw, 2rem);
+        font-size: clamp(1.1rem, 2vw, 2rem);
         margin-bottom: $spacing;
         color: #ffffff;
         position: relative;
@@ -84,7 +85,8 @@
       }
 
       p {
-        font-size: clamp(1rem, 1.2vw, 1.2rem);
+
+        font-size: clamp(0.9rem, 1.2vw, 1.2rem);
         margin-bottom: $spacing * 2;
         color: rgba(255, 255, 255, 0.8);
       }

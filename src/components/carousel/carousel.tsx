@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./carousel.module.scss";
-
-interface CarouselProps {
-  children: React.ReactNode[];
-  showNavigation?: boolean;
-  autoSlideInterval?: number;
-}
+import { CarouselProps } from "../../models/carousel";
 
 const Carousel: React.FC<CarouselProps> = ({ children, showNavigation = true, autoSlideInterval = 3000, }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

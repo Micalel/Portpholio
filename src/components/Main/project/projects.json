@@ -9,7 +9,7 @@
     ],
     "skills": ["HTML", "CSS", "JavaScript"],
     "link": "https://github.com/Micalel/OC2-Creez-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-CSS.git",
-    "brief": "Création d'une interface utilisateur moderne et réactive pour un site de location immobilière.",
+    "brief": "Création d'une page statique pour une agence de location de biens immobiliers.",
     "difficulties": "Gestion des grilles CSS et adaptation responsive.",
     "lessonsLearned": "Amélioration des compétences en design UI et en responsive design."
   },

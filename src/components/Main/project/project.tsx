@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./project.module.scss";
 import Carousel from "../../carousel/carousel";
-import projectsData from "./projects.json";
+import projectsData from "./projects.json"; 
 import { Project } from "../../../models/projects";
 import { Link } from "react-router-dom"; 
 

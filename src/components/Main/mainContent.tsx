@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./main.module.scss";
+import styles from "./mainContent.module.scss";
 import Contact from "./contact/contact"
 import Presentation from "./presentation/presentation"
 import Project from "./project/project"

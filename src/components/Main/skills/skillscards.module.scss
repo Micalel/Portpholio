@@ -1,0 +1,28 @@
+@import "../../../styles/utils/_variables.scss";
+
+.skillCard {
+  text-align: center;
+  background-color: #1e3a5f;
+  border-radius: $border-radius;
+  padding: $spacing * 3;
+  border: 1px solid #3f6791;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: $spacing * 2;
+  }
+
+  .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: $spacing;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    color: white;
+  }
+}

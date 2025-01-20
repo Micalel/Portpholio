@@ -1,10 +1,17 @@
 import React from "react";
 import styles from "./header.module.scss";
+import homeIcon from "../../assets/icones/icone-home.svg";
+
 
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
       <nav>
+      <div className={styles.homeIcon}>
+          <a href="/#">
+            <img src={homeIcon} alt="Accueil" />
+          </a>
+        </div>
         <ul>
           <li>
             <a href="/#Présentation">Présentation</a>

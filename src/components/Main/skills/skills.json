@@ -1,0 +1,23 @@
+[
+    {
+      "name": "React.js",
+      "description": "Utilisant React.js comme principale bibliothèque front-end dans mes projets, et ça depuis mes débuts en développement web, je suis capable de créer des applications web modernes et réactives.",
+      "icon": "/src/assets/icones/icone-react.svg"
+    },
+    {
+      "name": "Vite.js",
+      "description": "Ayant commencé à explorer le monde de Vite.js, j'ai pu acquérir les bases et je continue à m'améliorer dans l'utilisation de cet outil.",
+      "icon": "/src/assets/icones/icone-vite.svg"
+    },
+    {
+      "name": "Node.js (Express.js)",
+      "description": "Utilisant Node.js pour mes projets back-end, je suis capable de créer des serveurs web et des API (principalement NoSQL) pour mes applications.",
+      "icon": "/src/assets/icones/icone-node.svg"
+    },
+    {
+      "name": "MongoDB",
+      "description": "Utilisant MongoDB pour mes projets back-end, je suis capable de créer des bases de données NoSQL pour mes applications.",
+      "icon": "/src/assets/icones/icone-mongodb.svg"
+    }
+  ]
+  

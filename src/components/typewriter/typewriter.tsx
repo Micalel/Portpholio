@@ -14,7 +14,13 @@ const Typewriter: React.FC<TypewriterProps> = ({ text, speed = 150, extraStyle, 
   const [isTypingFinished, setIsTypingFinished] = useState(false);
 
   useEffect(() => {
-    if (index < text.length) {
+    const hasSeenAnimation = localStorage.getItem("hasSeenTypewriter");
+
+    if (hasSeenAnimation) {
+      setDisplayedText(text); 
+      setIsTypingFinished(true);
+      if (onFinish) onFinish();
+    } else if (index < text.length) {
       const typingInterval = setInterval(() => {
         setDisplayedText((prev) => prev + text.charAt(index));
         setIndex((prevIndex) => prevIndex + 1);
@@ -23,19 +29,16 @@ const Typewriter: React.FC<TypewriterProps> = ({ text, speed = 150, extraStyle, 
       return () => clearInterval(typingInterval);
     } else {
       setIsTypingFinished(true);
-      
-      if (onFinish) {
-        onFinish();
-
+      localStorage.setItem("hasSeenTypewriter", "true"); 
+      if (onFinish) onFinish();
     }
-  }
   }, [index, text, speed, onFinish]);
 
   return (
     <div className={styles.typewriterContainer} style={extraStyle}>
       <span className={styles.typewriterText}>{displayedText}</span>
-      {!isTypingFinished &&<span className={styles.cursor}></span>}
-      </div>
+      {!isTypingFinished && <span className={styles.cursor}></span>}
+    </div>
   );
 };
 
