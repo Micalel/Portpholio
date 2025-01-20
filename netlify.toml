@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build" # Commande de build pour Vite
+  publish = "dist" # Répertoire généré par Vite après le build
+
+[build.environment]
+  NODE_VERSION = "16" # Force l'utilisation de Node.js version 16

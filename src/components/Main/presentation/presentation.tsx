@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Typewriter from "../../typewriter/typewriter";
 import styles from "./presentation.module.scss";
-import iconLinkdin from "../../../assets/icones/icone-linkdin.svg";
-import iconGithub from "../../../assets/icones/icone-github.svg";
+
 
 interface PresentationProps {
   onFinish?: () => void;
@@ -43,7 +42,7 @@ const Presentation: React.FC<PresentationProps> = ({ onFinish }) => {
         rel="noopener noreferrer"
         className={styles.socialIcon}
       >
-        <img src={iconGithub} alt="GitHub" />
+        <img src="/assets/icones/icone-github.svg" alt="GitHub" />
       </a>
       <a 
         href="https://www.linkedin.com/in/micael-martins-moreira-086a16134/"
@@ -51,7 +50,7 @@ const Presentation: React.FC<PresentationProps> = ({ onFinish }) => {
         rel="noopener noreferrer"
         className={styles.socialIcon}
       >
-        <img src={iconLinkdin} alt="LinkedIn" />
+        <img src="/assets/icones/icone-linkdin.svg" alt="LinkedIn" />
       </a>
       </div>
     )} 

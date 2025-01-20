@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./header.module.scss";
-import homeIcon from "../../assets/icones/icone-home.svg";
+
 
 
 const Header: React.FC = () => {
@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <nav>
       <div className={styles.homeIcon}>
           <a href="/#">
-            <img src={homeIcon} alt="Accueil" />
+            <img src="/assets/icones/icone-home.svg" alt="Accueil" />
           </a>
         </div>
         <ul>
