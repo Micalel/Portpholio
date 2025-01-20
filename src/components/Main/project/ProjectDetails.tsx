@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { Project } from "../../../models/projects"; 
 import projectsData from "./projects.json"; 
 import Carousel from "../../carousel/carousel";
-import styles from "./projectDetails.module.scss";
+import styles from "./ProjectDetails.module.scss";
 
 const ProjectDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>(); 
