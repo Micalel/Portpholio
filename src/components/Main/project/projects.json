@@ -2,46 +2,56 @@
   {
     "id": 1,
     "name": "Booki",
-    "description": "Booki est un site de location de biens immobiliers. C'est une page statique qui permet de visualiser les biens disponibles.",
+    "description": "Booki est un site de location de biens immobiliers, offrant une interface moderne et intuitive pour visualiser les biens disponibles en fonction des besoins des utilisateurs.",
     "images": [
       "/assets/images/Booki_oc.png",
       "/assets/images/Booki1_oc.png"
     ],
-    "skills": ["HTML", "CSS", "JavaScript"],
+    "skills": ["HTML", "CSS", "Responsive Design"],
     "link": "https://github.com/Micalel/OC2-Creez-la-page-d-accueil-d-une-agence-de-voyage-avec-HTML-CSS.git",
-    "brief": "Création d'une page statique pour une agence de location de biens immobiliers.",
-    "difficulties": "Gestion des grilles CSS et adaptation responsive.",
-    "lessonsLearned": "Amélioration des compétences en design UI et en responsive design."
+    "brief": "Développement d'une page statique dédiée à une agence de location de biens immobiliers, mettant en avant les biens disponibles à travers une mise en page responsive et accessible.",
+    "difficulties": "Adaptation de la mise en page pour toutes les tailles d'écran, gestion des grilles CSS et maintien d'une hiérarchie visuelle claire.",
+    "lessonsLearned": "Renforcement des compétences en intégration web, maîtrise de Flexbox et Grid, et meilleure compréhension des principes de responsive design pour améliorer l'expérience utilisateur."
   },
+  
   {
     "id": 2,
-    "name": "Portpholio Nina Carducci",
-    "description": "Ce projet est un portpholio pour une cliente nommée Nina Carducci.",
+    "name": "Portfolio Nina Carducci",
+    "description": "Optimisation du site portfolio de Nina Carducci, une photographe fictive, en mettant l'accent sur l'amélioration des performances, du SEO, et de l'accessibilité. Correction des bugs dans la navigation et mise en œuvre de filtres visuels pour améliorer l'expérience utilisateur.",
     "images": [
       "/assets/images/Nina_oc.png",
-      "/assets/images/Nina1_oc.png"
+      "/assets/images/Nina1_oc.png",
+      "/assets/images/Nina2_oc.png"
     ],
-    "skills": ["React", "TypeScript", "SASS"],
+    "skills": ["HTML", "CSS", "JavaScript", "SEO", "Responsive Design", "Accessibility"],
     "link": "https://github.com/Micalel/Nina-Carducci-Dev-master",
-    "brief": "Développement d'un portfolio professionnel et esthétique pour une développeuse.",
-    "difficulties": "Intégration de TypeScript avec React et gestion des animations.",
-    "lessonsLearned": "Utilisation avancée de SASS et bonnes pratiques pour le SEO."
+    "brief": "Amélioration et optimisation du site portfolio de Nina Carducci pour le rendre plus performant, accessible, et adapté aux exigences des moteurs de recherche.",
+    "difficulties": "Gestion des performances web avec Lighthouse, implémentation des schémas Schema.org pour le SEO local, et correction des bugs de navigation dans la galerie.",
+    "lessonsLearned": "Approfondissement des techniques d'optimisation SEO, mise en œuvre des pratiques d'accessibilité, et amélioration de l'expérience utilisateur à travers des corrections de bugs et des optimisations du front-end."
   },
+  
   {
     "id": 3,
-    "name": "TBD",
-    "description": "En cours de définition.",
+    "name": "Kasa",
+    "description": "Kasa est une plateforme de location d’appartements entre particuliers. Le projet consiste à développer une application React en suivant des maquettes Figma responsives et un fichier JSON simulant les données.",
     "images": [
-      "/assets/images/booki1.png",
-      "/assets/images/booki2.png",
-      "/assets/images/booki3.png"
+      "/assets/images/Kasa_oc.png",
+      "/assets/images/Kasa1_oc.png",
+      "/assets/images/Kasa2_oc.png"
     ],
-    "skills": ["TBD", "TBD", "TBD"],
-    "link": "TBD",
-    "brief": "Description du projet en attente.",
-    "difficulties": "TBD",
-    "lessonsLearned": "TBD"
+    "skills": [
+      "React",
+      "Sass",
+      "JavaScript",
+      "Responsive Design",
+      "React Router"
+    ],
+    "link": "https://github.com/Micael/OC6_Location-application",
+    "brief": "Développement d'une application React à partir de maquettes responsives, incluant des composants interactifs comme une galerie d'images et des menus déroulants.",
+    "difficulties": "Gestion des états pour des fonctionnalités comme la galerie d'images (navigation circulaire) et les menus déroulants (ouverts/fermés par clic), ainsi que la mise en page responsive.",
+    "lessonsLearned": "Renforcement des compétences en React, Sass et en intégration de maquettes Figma, ainsi que la gestion des routes avec React Router."
   },
+  
   {
     "id": 4,
     "name": "TBD",
