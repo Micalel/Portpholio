@@ -1,0 +1,11 @@
+{
+    "name": "Portfolio - Micael Moreira",
+    "short_name": "Portfolio",
+    "description": "Portfolio de Micael Moreira, développeur web créatif et expérimenté.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#001f3f",
+    "theme_color": "#0074d9"
+    
+  }
+  
