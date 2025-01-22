@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   box-shadow: 
     inset 0 0 20px rgba(255, 255, 255, 0.1),
     0 4px 20px rgba(0, 0, 0, 0.7);
@@ -21,14 +22,16 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
+    gap: $spacing * 4;  
 
     .homeIcon {
-      margin-right: $spacing * 4;
+      margin-right: $spacing * 2;
 
       a {
         display: inline-block;
-        width: 2rem;
-        height: 2rem;
+        width: clamp(1.5rem, 2.5vw, 2rem);
+        height: clamp(1.5rem, 2.5vw, 2rem);
 
         img {
           width: 100%;
@@ -45,15 +48,24 @@
     ul {
       list-style: none;
       display: flex;
-      gap: $spacing * 6;
+      gap: $spacing * 2;
       margin: 0;
       padding: 0;
+      flex-wrap: wrap;
+
+      li {
+
+        flex: 1 1 auto;
+        text-align: center;
+
+      }
 
       li a {
         color: $text-color-light;
         text-decoration: none;
         text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
-        font-size: clamp(0.8rem, 1.5vw, 1rem);
+        font-size: clamp(0.8rem, 1.2vw, 1rem);
+        white-space: nowrap;
 
         &:hover {
           color: $link-hover-color;
