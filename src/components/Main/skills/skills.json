@@ -1,23 +1,37 @@
 [
-    {
-      "name": "React.js",
-      "description": "Utilisant React.js comme principale bibliothèque front-end dans mes projets, et ça depuis mes débuts en développement web, je suis capable de créer des applications web modernes et réactives.",
-      "icon": "/assets/icones/icone-react.svg"
-    },
-    {
-      "name": "Vite.js",
-      "description": "Ayant commencé à explorer le monde de Vite.js, j'ai pu acquérir les bases et je continue à m'améliorer dans l'utilisation de cet outil.",
-      "icon": "/assets/icones/icone-vite.svg"
-    },
-    {
-      "name": "Node.js (Express.js)",
-      "description": "Utilisant Node.js pour mes projets back-end, je suis capable de créer des serveurs web et des API (principalement NoSQL) pour mes applications.",
-      "icon": "/assets/icones/icone-node.svg"
-    },
-    {
-      "name": "MongoDB",
-      "description": "Utilisant MongoDB pour mes projets back-end, je suis capable de créer des bases de données NoSQL pour mes applications.",
-      "icon": "/assets/icones/icone-mongodb.svg"
-    }
-  ]
-  
+  {
+    "name": "JavaScript",
+    "description": "JavaScript est le langage que j'utilise le plus fréquemment pour développer des fonctionnalités dynamiques et interactives côté client comme côté serveur.",
+    "icon": "/assets/icones/icone-javascript.svg"
+  },
+  {
+    "name": "React.js",
+    "description": "Je développe des applications front-end avec React.js, en utilisant principalement des composants fonctionnels et le Hooks API. J'ai également travaillé sur des animations natives avec React, notamment pour améliorer les transitions et les interactions.",
+    "icon": "/assets/icones/icone-react.svg"
+  },
+  {
+    "name": "Vite.js",
+    "description": "J'ai commencé à utiliser Vite.js pour améliorer les performances et simplifier le processus de développement, en particulier avec React.",
+    "icon": "/assets/icones/icone-vite.svg"
+  },
+  {
+    "name": "Node.js (Express.js)",
+    "description": "J'utilise Node.js avec Express pour développer des API REST simples, en intégrant MongoDB pour la gestion des données NoSQL. Mes projets incluent des systèmes d'authentification et de validation des requêtes.",
+    "icon": "/assets/icones/icone-node.svg"
+  },
+  {
+    "name": "MongoDB",
+    "description": "J'ai une expérience pratique avec MongoDB, notamment pour la création de collections et la gestion de documents dans le cadre d'applications back-end.",
+    "icon": "/assets/icones/icone-mongodb.svg"
+  },
+  {
+    "name": "C / C++",
+    "description": "J'ai des bases en C et C++ acquises à l'université, ce qui me permet de comprendre les concepts fondamentaux des langages bas niveau comme la gestion de la mémoire et les structures de données.",
+    "icon": "/assets/icones/icone-c.svg"
+  },
+  {
+    "name": "Sass",
+    "description": "Je maîtrise les bases de Sass pour structurer mes styles CSS efficacement, en utilisant des fonctionnalités comme les variables, mixins et nesting pour améliorer la lisibilité et la maintenabilité.",
+    "icon": "/assets/icones/icone-sass.svg"
+  }
+]
