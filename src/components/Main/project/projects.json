@@ -54,17 +54,19 @@
   
   {
     "id": 4,
-    "name": "TBD",
-    "description": "En cours de définition.",
+    "name": "Mon Vieux Grimoire",
+    "description": "Développement du back-end pour un site de référencement et de notation de livres, permettant aux utilisateurs de créer un compte, d’ajouter des livres, de les noter et de voir les notes publiquement.",
     "images": [
-      "TBD",
-      "TBD",
-      "TBD"
+      "/assets/images/VG_oc.png",
+      "/assets/images/VG1_oc.png",
+      "/assets/images/VG2_oc.png",
+      "/assets/images/VG3_oc.png"
     ],
-    "skills": ["TBD", "TBD", "TBD", "TBD"],
-    "link": "TBD",
-    "brief": "Description du projet en attente.",
-    "difficulties": "TBD",
-    "lessonsLearned": "TBD"
+    "skills": ["Node.js", "Express", "MongoDB", "JWT", "Image Optimization", "Sécurité", "Anti-DDOS"],
+    "link": "https://github.com/Micalel/OC7_backend",
+    "brief": "Création d'une API REST sécurisée pour la gestion des livres et des utilisateurs, avec une interface utilisateur pour l'ajout de livres, système d'authentification via tokens JWT, et optimisation des images pour le Green Code.",
+    "difficulties": "Conception et mise en place de l'API REST en respectant les bonnes pratiques, intégration des systèmes d'authentification et de sécurisation (anti-DDOS, gestion des permissions).",
+    "lessonsLearned": "Renforcement des compétences en développement d'API sécurisées avec Node.js et MongoDB, intégration de pratiques de sécurité avancées, et optimisation des ressources pour des performances élevées."
   }
+  
 ]
